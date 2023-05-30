@@ -1,0 +1,19 @@
+@import 'ol/ol.css';
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+/*
+#map {
+    width:600px;
+    height: 600px;
+    margin: 0;
+}*/
+
+#map {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 30px;
+}
