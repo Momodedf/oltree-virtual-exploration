@@ -8,6 +8,11 @@
 
 
     <link rel="stylesheet" href="{{ Vite::asset('resources/css/map.css') }}" />
+    <style>
+        body {
+            background-color: #35200D;
+        }
+    </style>
 
     <!-- jQuery -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>

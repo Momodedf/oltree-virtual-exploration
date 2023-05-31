@@ -99,9 +99,9 @@ map.on(["click"], function(e) {
     console.log('On click hex coords : '+h[0]+', '+h[1]);
 });
 
-view.setZoom(18.234585335589976);
-gotoCoord(31, 25);
-let currZoom = view.getZoom()
+/*view.setZoom(18.234585335589976);
+gotoCoord(31, 25);*/
+let currZoom = view.getZoom();
 map.on('move', function(e) {
     gridLayer.setVisible(false);
     console.log('Move start');
